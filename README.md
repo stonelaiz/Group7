@@ -7,6 +7,15 @@ The Weather API has 1 endpoint with 3 parameters. The three parameters, longitud
 
 ## Endpoints
 
+### GET /manitobaweather/report
+Gets an hourly report for a specified coordinate pair.
+
+parameters:
+  long    number   mandatory   the longitude of location to get a weather report for. Values must be within Manitoba
+  lat     number   manadtory   the latitude of location to get a weather report for. Values must be within Manitoba
+  time    number   optional    how many hours from the request will be the beginning of the report. value range 0-24. By default 0, which repurts the current hour
+  leng    number   optional    how many hours the report should cover. value range 1 - 24. By default 1 hour will be returned.
+
 ## Resources
 
 ## Sample Request
