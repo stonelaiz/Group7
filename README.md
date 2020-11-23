@@ -14,7 +14,7 @@ parameters:
  | paramater | data-type | optional? | description |
  | --- | --- | --- | --- |
  | long | number | mandatory | the longitude of location to get a weather report for. Values must be within Manitoba
- | lat | number | manadtory | the latitude of location to get a weather report for. Values must be within Manitoba
+ | lat | number | mandatory | the latitude of location to get a weather report for. Values must be within Manitoba
  | time  |  number | optional | how many hours from the request will be the beginning of the report. value range 0-24. By default 0, which repurts the current hour
   leng | number | optional | how many hours the report should cover. value range 1 - 24. By default 1 hour will be returned.
 
