@@ -19,5 +19,59 @@ parameters:
   leng | number | optional | how many hours the report should cover. value range 1 - 24. By default 1 hour will be returned.
 
 ## Resources
+{  
+   "precipitation": the probability of snow/rain in the area
+   "temperature": the current temperature in the area
+   "region": is the given by the coordinates provided which must be within Manitoba
+   "time": the times provided by the API depending on the parameter; 1-24 hours from the current time
+}
 
-## Sample Request
+## Sample Request/Response
+###Request
+```
+
+https://api.manitoba.weather.org/json/weather?long=27.2&lat=77.1&time=0&leng=3
+```
+###Response
+```
+{
+   "results":
+   {
+   "time": 18:00
+        "precipitation": 60%
+        "temperature": -21
+   "time": 19:00
+        "precipitation": 10%
+        "temperature": -17
+   "time": 20:00
+        "precipitation": 0%
+        "temperature": -15
+   "time": 21:00
+        "precipitation": 50%
+        "temperature": -24
+   }
+   "status": "OK"
+}
+```
+###Request
+```
+
+https://api.manitoba.weather.org/json/weather?long=27.2&lat=77.1
+```
+###Response
+```
+{
+   "results":
+   {
+   "time": 18:00
+        "precipitation": 60%
+        "temperature": -21
+   }
+   "status": "OK"
+}
+```
+
+
+
+
+
