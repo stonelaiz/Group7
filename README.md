@@ -15,7 +15,7 @@ parameters:
  | --- | --- | --- | --- |
  | long | number | mandatory | the longitude of location to get a weather report for. Values must be within Manitoba
  | lat | number | mandatory | the latitude of location to get a weather report for. Values must be within Manitoba
- | time  |  number | optional | how many hours from the request will be the beginning of the report. value range 0-24. By default 0, which repurts the current hour
+ | time  |  number | optional | how many hours from the request will be the beginning of the report. value range 0-24. By default 0, which reports the current hour
   leng | number | optional | how many hours the report should cover. value range 1 - 24. By default 1 hour will be returned.
 
 ## Resources
@@ -31,7 +31,6 @@ parameters:
 ## Sample Request/Response
 ### Request
 ```
-
 https://api.manitoba.weather.org/json/weather?long=27.2&lat=77.1&time=0&leng=3
 ```
 ### Response
@@ -57,7 +56,6 @@ https://api.manitoba.weather.org/json/weather?long=27.2&lat=77.1&time=0&leng=3
 ```
 ### Request
 ```
-
 https://api.manitoba.weather.org/json/weather?long=27.2&lat=77.1
 ```
 ### Response
