@@ -1,6 +1,4 @@
-# Group7
 # The Weather API 
-
 
 ## API description
 The Weather API(Application Programming Interface) allows consumers to inquire on how to approach their day by providing a quick weather report of the precipitation and temperature based on the coordinates of Manitoba. The Weather API, takes four inputs, longitude(long), latitude(lat), time, and length(optional), and returns weather information for the region specified as well as an option to request hourly reports. So whether the customer is a farmer or a daily commuter they will be able to make favourable decisions based on the report provided.
