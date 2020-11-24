@@ -1,9 +1,9 @@
 # Group7
-## Weather API based on location
-This is the best group
+# The Weather API 
+
 
 ## API description
-The Weather API has 1 endpoint with 3 parameters. The three parameters, longitude, latitude, and number of hours, indicate the location to collect the report from as well as how many hourly updates the user requests. (the assignment says the description should pitch it to a manager or something. not sure if you care to update it, but that is what the assignment says) Note from nick 
+The Weather API(Application Programming Interface) allows consumers to inquire on how to approach their day by providing a quick weather report of the precipitation and temperature based on the coordinates of Manitoba. The Weather API, takes four inputs, longitude(long), latitude(lat), time, and length(optional), and returns weather information for the region specified as well as an option to request hourly reports. So whether the customer is a farmer or a daily commuter they will be able to make favourable decisions based on the report provided.
 
 ## Endpoints
 
