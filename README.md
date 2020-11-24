@@ -29,12 +29,12 @@ parameters:
 ```
 
 ## Sample Request/Response
-###Request
+### Request
 ```
 
 https://api.manitoba.weather.org/json/weather?long=27.2&lat=77.1&time=0&leng=3
 ```
-###Response
+### Response
 ```
 {
    "results":
@@ -55,12 +55,12 @@ https://api.manitoba.weather.org/json/weather?long=27.2&lat=77.1&time=0&leng=3
    "status": "OK"
 }
 ```
-###Request
+### Request
 ```
 
 https://api.manitoba.weather.org/json/weather?long=27.2&lat=77.1
 ```
-###Response
+### Response
 ```
 {
    "results":
